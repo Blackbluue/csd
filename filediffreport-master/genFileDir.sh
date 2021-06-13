@@ -45,7 +45,7 @@ for SAFE in $SAFE_TYT_STRINGS; do
 
     chmod "$PERMS" "${FILENAME}.tyt"
 
-    echo "${FILENAME}.tyt >> ../.safe_filenames
+    echo "${FILENAME}.tyt" >> ../.safe_filenames
 
 done
 
@@ -62,7 +62,7 @@ for SAFE in $SAFE_WQR_STRINGS; do
 
     chmod "$PERMS" "${FILENAME}.wqr"
 
-    echo "${FILENAME}.wqr >> ../.safe_filenames
+    echo "${FILENAME}.wqr" >> ../.safe_filenames
 
 done
 
@@ -79,7 +79,7 @@ for SAFE in $SAFE_RTL_STRINGS; do
 
     chmod "$PERMS" "${FILENAME}.rtl"
 
-    echo "${FILENAME}.rtl >> ../.safe_filenames
+    echo "${FILENAME}.rtl" >> ../.safe_filenames
 
 done
 
