@@ -1,0 +1,9 @@
+Now that you're ready to begin, download "genFileDir.sh" and "modFiles.sh" to begin.
+
+"genFileDir.sh" will fill your directory with an assortment of files. Your job is to find all files
+ with extensions of .tyt, .wqr, and .rtl then read their contents to retreive an encoded string. 
+ You must log the valid filenames, the contents of the valid files, then the decoded contents to a file. 
+ Then generate a second report that includes the name of the non-valid files with their contents. 
+ Check the README for requirements and examples of what the outputs should look like.
+ 
+To clean up the directory, run modFiles.sh
