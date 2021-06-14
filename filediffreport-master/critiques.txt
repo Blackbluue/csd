@@ -1,0 +1,5 @@
+1. There seems to be an issue with formatting in genFileDir.sh, which cause errors
+2. genFileDir.sh must be run with sudo permissions in order to chmod files
+3. As the files are generated randomly, there is no way to tell in what order to
+   read the files. So the contents of the files cannot be decoded since there
+   is no way to tell the order of the messages
